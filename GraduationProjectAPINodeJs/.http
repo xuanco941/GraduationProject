@@ -1,0 +1,23 @@
+
+POST http://localhost:5001/api/translation
+Content-Type: application/json
+
+{
+    "text":"Hello you, i have a dream very very beautiful",
+    "tgt_lang":"vie_Latn",
+    "src_lang":"eng_Latn"
+}
+
+###
+POST http://localhost:5001/api/image-captioning
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="image"; filename="1.jpg"
+
+<@./1.jpg
+--boundary--
+
+
+###
+GET http://localhost:3000/

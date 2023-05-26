@@ -1,0 +1,6 @@
+//optimize
+//enabled unsafe code
+//platform x64
+//stable smd
+//export exe realease => optimize
+//stable.model => gg drive kaioco09 : https://drive.google.com/file/d/1FcC3KTn9A2PvWIp6KgMnZQVG1i4YEYbq/view?usp=sharing

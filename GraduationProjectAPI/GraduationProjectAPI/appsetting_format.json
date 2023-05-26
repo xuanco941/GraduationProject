@@ -1,0 +1,32 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "CorsPolicy": {
+    "AllowAnyHeader": true,
+    "AllowAnyMethod": true,
+    "AllowAnyOrigin": true
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": ""
+  },
+  "Jwt": {
+    "SecretKey": "abc...",
+    "Issuer": "",
+    "Audience": "",
+    "ExpireDays": 30
+  },
+  "Role": {
+    "User": "User",
+    "Admin": "Admin",
+    "Guest" : "Guest"
+  },
+  "Email": {
+    "Address": "",
+    "Password": "" 
+  }
+}
